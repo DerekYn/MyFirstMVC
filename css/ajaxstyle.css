@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#container {width: 100%;
+			margin: 0 auto;
+			padding: 20px;
+			/* border: 1px solid red; */}
+			
+#memberInfo {float: left;
+			 width: 60%;
+			 height: 400px;
+			 /* border: 1px solid green; */}		
+			 
+#imgInfo {float: left;
+		  width: 30%;
+		  height: 400px;
+		  margin-left: 2%;
+	      /* border: 1px solid blue; */}
