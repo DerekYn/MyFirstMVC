@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>숫자를 입력받아서 1,3(남자) / 2,4(여자)로 나타내기</title>
+
+<script type="text/javascript">
+	function goSubmit() {
+		var frm = document.genderFrm;
+		frm.method = "get";
+		frm.action = "4ChooseTestEnd.jsp";
+		frm.submit();
+	}
+</script>
+
+</head>
+<body>
+	<form name="genderFrm">
+		숫자 입력 : <input type="text" name="num" /><br/>
+		<button type="button" onClick="goSubmit();">확인</button>
+	</form>
+</body>
+</html>
